@@ -1,0 +1,19 @@
+﻿<Window x:Class="ChronoMath.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChronoMath"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Start" Content="Démarrer" HorizontalAlignment="Left" Margin="33,330,0,0" VerticalAlignment="Top" Height="73" Width="152" Click="Start_Click" FontSize="20"/>
+        <Button x:Name="Vadid" Content="Valider" HorizontalAlignment="Left" Margin="597,330,0,0" VerticalAlignment="Top" Height="73" Width="174" Click="Vadid_Click" FontSize="20"/>
+        <TextBox x:Name="Reponse"  HorizontalAlignment="Center" Height="50" TextWrapping="Wrap" Text="Saisissez ici votre réponse..." VerticalAlignment="Top" Width="628" FontSize="20" GotFocus="Saisie_GotFocus" KeyDown="Reponse_KeyDown" Margin="0,167,0,0"/>
+        <Label x:Name="Operation" Content="Opération" HorizontalAlignment="Left" Height="48" Margin="238,97,0,0" VerticalAlignment="Top" Width="134" FontSize="20"/>
+        <Label x:Name="Valeur1" Content="Valeur 1" HorizontalAlignment="Left" Height="48" Margin="33,97,0,0" VerticalAlignment="Top" Width="134" FontSize="20"/>
+        <Label x:Name="Valeur2" Content="Valeur 2" HorizontalAlignment="Left" Height="48" Margin="460,94,0,0" VerticalAlignment="Top" Width="134" FontSize="20"/>
+        <Label x:Name="Horloge" Content="Horloge" HorizontalAlignment="Left" Height="48" Margin="475,10,0,0" VerticalAlignment="Top" Width="134" FontSize="20"/>
+        <Label x:Name="Message" Content="Label" HorizontalAlignment="Left" Height="78" Margin="56,217,0,0" VerticalAlignment="Top" Width="596" FontSize="20"/>
+    </Grid>
+</Window>

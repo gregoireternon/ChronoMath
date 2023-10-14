@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ck9wCT4qcwHQO63QGr6a32pPL5kDavtTz3fRvq7S5EPgyieJF/2ECUd3KDvvxqoGjF/0fWSQVj851F0phCC5+g==",
+  "success": true,
+  "projectFilePath": "F:\\projets\\PetitProjet\\ChronoMath\\ChronoMath\\ChronoMath\\ChronoMath.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.0.0.4:8090/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
