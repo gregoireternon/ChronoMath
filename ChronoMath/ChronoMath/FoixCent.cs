@@ -12,7 +12,7 @@ namespace ChronoMath
             this.rand = rand;
             operation = "x";
             right = "100";
-            int tleft = rand.Next(20, 1000000);
+            int tleft = rand.Next(20, 1000);
             _answer = tleft * 100;
 
             Left = tleft.ToString();

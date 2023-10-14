@@ -8,7 +8,7 @@ namespace ChronoMath
         public IOperation Provide(Random rand)
         {
             
-            int opType = rand.Next(0,8);
+            int opType = rand.Next(0,9);
             switch(opType)
             {
                 case 0:
@@ -34,6 +34,9 @@ namespace ChronoMath
                     break;
                 case 7:
                     return new FoixCent(rand);
+                    break;
+                case 8:
+                    return new Multiplication(rand);
                     break;
                 default:
                     return null;

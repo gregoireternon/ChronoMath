@@ -11,7 +11,7 @@ namespace ChronoMath
             this.rand = rand;
             operation = "+";
             right = "11";
-            int tleft = rand.Next(82, 1000000);
+            int tleft = rand.Next(82, 1000);
             _answer = tleft + 11;
             Left = tleft.ToString();
         }
